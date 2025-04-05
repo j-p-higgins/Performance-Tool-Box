@@ -1,0 +1,5 @@
+max objectfile ptb.reverb ptb.reverb;
+max definesubstitution ptb.reverb bpatcher @name ptb.reverb.maxpat;
+
+max objectfile ptb.preset ptb.preset;
+max definesubstitution ptb.preset bpatcher @name ptb.preset.maxpat;
