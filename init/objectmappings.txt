@@ -3,3 +3,30 @@ max definesubstitution ptb.reverb bpatcher @name ptb.reverb.maxpat;
 
 max objectfile ptb.preset ptb.preset;
 max definesubstitution ptb.preset bpatcher @name ptb.preset.maxpat;
+
+max objectfile ptb.midicc ptb.midicc;
+max definesubstitution ptb.midicc bpatcher @name ptb.midicc.maxpat;
+
+max objectfile ptb.input ptb.input;
+max definesubstitution ptb.input bpatcher @name ptb.input.maxpat;
+
+max objectfile ptb.output ptb.output;
+max definesubstitution ptb.output bpatcher @name ptb.output.maxpat;
+
+max objectfile ptb.parametriceq ptb.parametriceq;
+max definesubstitution ptb.parametriceq bpatcher @name ptb.parametriceq.maxpat;
+
+max objectfile ptb.eq ptb.eq;
+max definesubstitution ptb.eq bpatcher @name ptb.eq.maxpat;
+
+max objectfile ptb.filter ptb.filter;
+max definesubstitution ptb.filter bpatcher @name ptb.filter.maxpat;
+
+max objectfile ptb.filterbank ptb.filterbank;
+max definesubstitution ptb.filterbank bpatcher @name ptb.filterbank.maxpat;
+
+max objectfile ptb.distortion ptb.distortion;
+max definesubstitution ptb.distortion bpatcher @name ptb.distortion.maxpat;
+
+max objectfile ptb.bitcrush ptb.bitcrush;
+max definesubstitution ptb.bitcrush bpatcher @name ptb.bitcrush.maxpat;

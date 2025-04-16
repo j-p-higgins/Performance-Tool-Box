@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
+		"rect" : [ 59.0, 100.0, 573.0, 587.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,62 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 544.0, 371.0, 34.0 ],
+					"text" : "This is an implementation of the max-midi-learn tool by johnnyturpin https://github.com/johnnyturpin/max-midi-learn"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 52.0, 543.0, 186.0 ],
+					"text" : "Enables MIDI learn functionality to link controls in PTB tools to MIDI CC controlers. Output and input must be connected to a pattrstorage object to work, you can only have one of these per patch. It does not need to be connected to anything else.\n\nHow to use:\nStep 1: Turn on MIDI Enable\nStep 2: Turn on MIDI Lean Mode\nStep 3: Click on the control you would like to link. If it can be MIDI controlled t will light up. Pink means it is not linked to an existing MIDI controller, green means it is already linked to a MIDI controller. You can shift click a green control to unlink it.\nStep 4: Turn off MIDI Learn Mode\n\nThis tool will create .json files in your projects folder. These will store your MIDI links for future use."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 14.0, 216.0, 27.0 ],
+					"text" : "ptb.midicc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 474.0, 153.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 100, 100, 500, 600 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 200, 200, 800, 500 ]
+					}
+,
+					"text" : "pattrstorage @savemode 3",
+					"varname" : "u588001004"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -49,76 +105,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "ptb.output.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 14.0, 760.0, 825.0, 150.0 ],
-					"varname" : "ptb.output",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-5",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "ptb.preset.maxpat",
+					"name" : "ptb.midicc.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 850.0, 10.0, 825.0, 150.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 850.0, 116.0, 153.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 134, 483, 496 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
-					}
-,
-					"text" : "pattrstorage @savemode 3",
-					"varname" : "u656000480"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-7",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "ptb.input.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 14.0, 10.0, 825.0, 150.0 ],
-					"varname" : "ptb.input",
+					"patching_rect" : [ 50.0, 308.0, 200.0, 150.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -126,17 +118,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 859.5, 87.0, 859.0, 87.0, 859.0, 19.0, 859.5, 19.0 ],
-					"source" : [ "obj-2", 0 ]
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 859.5, 102.0, 859.5, 102.0 ],
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 59.5, 517.0, 25.0, 517.0, 25.0, 281.0, 59.5, 281.0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -156,21 +147,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ptb.input.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ptb.output.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ptb.preset.maxpat",
+				"name" : "ptb.midicc.maxpat",
 				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
