@@ -30,3 +30,18 @@ max definesubstitution ptb.distortion bpatcher @name ptb.distortion.maxpat;
 
 max objectfile ptb.bitcrush ptb.bitcrush;
 max definesubstitution ptb.bitcrush bpatcher @name ptb.bitcrush.maxpat;
+
+max objectfile ptb.delay ptb.delay;
+max definesubstitution ptb.delay bpatcher @name ptb.delay.maxpat;
+
+max objectfile ptb.tremolo ptb.tremolo;
+max definesubstitution ptb.tremolo bpatcher @name ptb.tremolo.maxpat;
+
+max objectfile ptb.chorus ptb.chorus;
+max definesubstitution ptb.chorus bpatcher @name ptb.chorus.maxpat;
+
+max objectfile ptb.flanger ptb.flanger;
+max definesubstitution ptb.flanger bpatcher @name ptb.flanger.maxpat;
+
+max objectfile ptb.phaser ptb.phaser;
+max definesubstitution ptb.phaser bpatcher @name ptb.phaser.maxpat;

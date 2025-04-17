@@ -88,9 +88,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Source 1 Output",
+					"comment" : "Source 4 Output",
 					"id" : "obj-74",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -198,7 +198,7 @@
 					"patching_rect" : [ 1351.0, 744.0, 153.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 651.0, 93.0, 153.0, 26.0 ],
-					"varname" : "input_trim_1[3]"
+					"varname" : "input_trim_4"
 				}
 
 			}
@@ -375,9 +375,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Source 1 Output",
+					"comment" : "Source 3 Output",
 					"id" : "obj-51",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -485,7 +485,7 @@
 					"patching_rect" : [ 1041.0, 744.0, 153.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 492.0, 93.0, 153.0, 26.0 ],
-					"varname" : "input_trim_1[2]"
+					"varname" : "input_trim_3"
 				}
 
 			}
@@ -662,9 +662,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Source 1 Output",
+					"comment" : "Source 2 Output",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -772,7 +772,7 @@
 					"patching_rect" : [ 750.0, 744.0, 153.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 332.0, 93.0, 153.0, 26.0 ],
-					"varname" : "input_trim_1[1]"
+					"varname" : "input_trim_2"
 				}
 
 			}
@@ -1044,7 +1044,7 @@
 				"box" : 				{
 					"comment" : "Source 1 Output",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1062,9 +1062,9 @@
 					"patching_rect" : [ 26.0, 455.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"input_trim_1" : [ 127 ],
-						"input_trim_1[1]" : [ 0 ],
-						"input_trim_1[2]" : [ 0 ],
-						"input_trim_1[3]" : [ 0 ]
+						"input_trim_2" : [ 127 ],
+						"input_trim_3" : [ 127 ],
+						"input_trim_4" : [ 127 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2367,16 +2367,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "resize_generic.js",
-				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
