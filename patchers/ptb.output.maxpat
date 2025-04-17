@@ -262,7 +262,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 12.0, 410.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"output_gain" : [ 100 ]
+						"output_gain" : [ 104 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2090,7 +2090,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-139", 0 ],
+					"order" : 1,
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
+					"order" : 0,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -2168,7 +2177,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-139", 1 ],
+					"destination" : [ "obj-139", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
