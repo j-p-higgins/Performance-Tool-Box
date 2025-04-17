@@ -45,3 +45,9 @@ max definesubstitution ptb.flanger bpatcher @name ptb.flanger.maxpat;
 
 max objectfile ptb.phaser ptb.phaser;
 max definesubstitution ptb.phaser bpatcher @name ptb.phaser.maxpat;
+
+max objectfile ptb.mixer ptb.mixer;
+max definesubstitution ptb.mixer bpatcher @name ptb.mixer.maxpat;
+
+max objectfile ptb.matrix ptb.matrix;
+max definesubstitution ptb.matrix bpatcher @name ptb.matrix.maxpat;
