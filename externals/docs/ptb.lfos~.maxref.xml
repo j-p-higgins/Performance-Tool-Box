@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="ptb.lfos~">
+<metadatalist>
+<metadata name="author">Jonathan Higgins</metadata>
+<metadata name="tag">modulation</metadata>
+<metadata name="tag">lfo</metadata>
+<metadata name="tag">lfos</metadata>
+<metadata name="tag">random</metadata>
+<metadata name="tag">chaos</metadata>
+<metadata name="tag">lorenz</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in1"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+<method name="in4"><digest>message input</digest><description>message input</description></method>
+<method name="in3"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist></attributelist>
+<description>Generates LFOs and modulation sources</description>
+<digest>Generates LFOs and modulation sources</digest>
+</c74object>

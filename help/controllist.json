@@ -1,0 +1,1 @@
+{"ptb.input::input_trim_1":{"ub":{},"midi":[{"device":"loopMIDI$Port","channel":1,"cc":0}]},"ptb.input::input_trim_2":{"ub":{}},"ptb.input::input_trim_3":{"ub":{}},"ptb.input::input_trim_4":{"ub":{}},"ptb.output::output_gain":{"ub":{}}}

@@ -51,3 +51,6 @@ max definesubstitution ptb.mixer bpatcher @name ptb.mixer.maxpat;
 
 max objectfile ptb.matrix ptb.matrix;
 max definesubstitution ptb.matrix bpatcher @name ptb.matrix.maxpat;
+
+max objectfile ptb.djmixer ptb.djmixer;
+max definesubstitution ptb.djmixer bpatcher @name ptb.djmixer.maxpat;

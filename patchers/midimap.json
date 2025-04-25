@@ -1,0 +1,1 @@
+{"MOTU$Pro$Audio$Midi$In":{},"MOTU$Pro$Audio$LTC$Sync$In":{},"loopMIDI$Port":{"c-1":{"cc-15":[],"cc-0":["ptb.input::input_trim_1"],"cc-102":["ptb.reverb::damping","ptb.reverb::pre-delay[1]","ptb.tremolo::trem-width","ptb.djmixer::djm-eq2-mid","ptb.djmixer::djm-mix","ptb.djmixer::djm-return"]}}}
