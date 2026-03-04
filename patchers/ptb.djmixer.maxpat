@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1475.0, 921.0 ],
+		"rect" : [ 134.0, 134.0, 1098.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -225,6 +225,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 204.0, 241.0, 57.0, 20.0 ],
 					"text" : "FX Send",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -243,8 +244,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-247",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -330,7 +333,7 @@
 				"box" : 				{
 					"comment" : "FX Send Right",
 					"id" : "obj-234",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -342,7 +345,7 @@
 				"box" : 				{
 					"comment" : "FX Send Left",
 					"id" : "obj-233",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -408,6 +411,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 200.0, 304.0, 64.0, 20.0 ],
 					"text" : "FX Return",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -426,8 +430,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-232",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -523,10 +529,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-218",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.4 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 261.0, 849.0, 80.0, 13.0 ],
 					"presentation" : 1,
@@ -536,10 +546,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-217",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.4 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1284.0, 812.5, 80.0, 13.0 ],
 					"presentation" : 1,
@@ -551,7 +565,7 @@
 				"box" : 				{
 					"comment" : "Right Output",
 					"id" : "obj-216",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -563,7 +577,7 @@
 				"box" : 				{
 					"comment" : "Left Output",
 					"id" : "obj-215",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -575,7 +589,7 @@
 				"box" : 				{
 					"comment" : "FX Return Right",
 					"id" : "obj-214",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -588,7 +602,7 @@
 				"box" : 				{
 					"comment" : "FX Return Left",
 					"id" : "obj-213",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -702,6 +716,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 208.0, 36.0, 50.0, 20.0 ],
 					"text" : "Output",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -720,8 +735,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-201",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -785,7 +802,7 @@
 				"box" : 				{
 					"comment" : "Input 2 Right",
 					"id" : "obj-192",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -900,6 +917,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 156.0, 36.0, 31.0, 20.0 ],
 					"text" : "2",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -966,6 +984,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-168",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1049,8 +1068,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-178",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -1100,8 +1121,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-182",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -1151,8 +1174,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-186",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -1228,7 +1253,7 @@
 				"box" : 				{
 					"comment" : "Input 2 Left",
 					"id" : "obj-152",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1385,7 +1410,7 @@
 				"box" : 				{
 					"comment" : "Input 1 Right",
 					"id" : "obj-126",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1635,6 +1660,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-85",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1669,6 +1695,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 36.0, 31.0, 20.0 ],
 					"text" : "1",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1735,6 +1762,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-43",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1769,6 +1797,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 65.0, 40.0, 20.0 ],
 					"text" : "High",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1783,6 +1812,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 111.0, 40.0, 20.0 ],
 					"text" : "Mid",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1797,6 +1827,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 158.0, 40.0, 20.0 ],
 					"text" : "Low",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1805,7 +1836,7 @@
 				"box" : 				{
 					"comment" : "Input 1 Left",
 					"id" : "obj-121",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1921,8 +1952,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-113",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -1972,8 +2005,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-107",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -2023,8 +2058,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-94",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -2118,7 +2155,8 @@
 					"patching_rect" : [ 42.0, 33.0, 234.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 6.0, 97.0, 29.0 ],
-					"text" : "DJ Mixer"
+					"text" : "DJ Mixer",
+					"textcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ]
 				}
 
 			}
@@ -2126,8 +2164,8 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.474509803921569, 0.705882352941177, 0.717647058823529, 1.0 ],
-					"grad2" : [ 0.552941176470588, 0.470588235294118, 0.647058823529412, 1.0 ],
+					"grad1" : [ 0.254901960784314, 0.215686274509804, 0.298039215686275, 1.0 ],
+					"grad2" : [ 0.109803921568627, 0.109803921568627, 0.109803921568627, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
 					"mode" : 1,
@@ -3276,7 +3314,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "resize_generic.js",
+				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

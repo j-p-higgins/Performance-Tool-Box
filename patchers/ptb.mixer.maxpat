@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1475.0, 921.0 ],
+		"rect" : [ 134.0, 134.0, 1098.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -125,10 +125,10 @@
 					"patching_rect" : [ 37.0, 511.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"mixer-1" : [ 63.659999999999997 ],
-						"mixer-3" : [ 0.0 ],
-						"mixer-4" : [ 0.0 ],
-						"mixer-5" : [ 0.0 ],
-						"mixer2" : [ 0.0 ]
+						"mixer-3" : [ 63.659999999999997 ],
+						"mixer-4" : [ 63.659999999999997 ],
+						"mixer-5" : [ 63.659999999999997 ],
+						"mixer2" : [ 63.659999999999997 ]
 					}
 ,
 					"text" : "autopattr",
@@ -282,6 +282,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 36.0, 46.0, 20.0 ],
 					"text" : "Output",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -363,9 +364,11 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-116",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -485,6 +488,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 196.0, 35.0, 28.0, 20.0 ],
 					"text" : "4",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -566,9 +570,11 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-100",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -688,6 +694,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 35.0, 28.0, 20.0 ],
 					"text" : "3",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -769,9 +776,11 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-84",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -891,6 +900,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 76.0, 35.0, 28.0, 20.0 ],
 					"text" : "2",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -972,9 +982,11 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-68",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -1094,6 +1106,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 16.0, 35.0, 28.0, 20.0 ],
 					"text" : "1",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1175,9 +1188,11 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-13",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -1271,7 +1286,8 @@
 					"patching_rect" : [ 42.0, 33.0, 234.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 6.0, 79.0, 29.0 ],
-					"text" : "Mixer"
+					"text" : "Mixer",
+					"textcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ]
 				}
 
 			}
@@ -1279,8 +1295,8 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.474509803921569, 0.705882352941177, 0.717647058823529, 1.0 ],
-					"grad2" : [ 0.552941176470588, 0.470588235294118, 0.647058823529412, 1.0 ],
+					"grad1" : [ 0.254901960784314, 0.215686274509804, 0.298039215686275, 1.0 ],
+					"grad2" : [ 0.109803921568627, 0.109803921568627, 0.109803921568627, 1.0 ],
 					"id" : "obj-194",
 					"maxclass" : "panel",
 					"mode" : 1,

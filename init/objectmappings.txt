@@ -69,3 +69,6 @@ max definesubstitution ptb.oscillator bpatcher @name ptb.oscillator.maxpat;
 
 max objectfile ptb.midiin ptb.midiin;
 max definesubstitution ptb.midiin bpatcher @name ptb.midiin.maxpat;
+
+max objectfile ptb.sequencer ptb.sequencer;
+max definesubstitution ptb.sequencer bpatcher @name ptb.sequencer.maxpat;

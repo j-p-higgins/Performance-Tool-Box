@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
+		"rect" : [ 34.0, 85.0, 1475.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -100,10 +100,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-75",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1408.0, 720.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -120,7 +124,8 @@
 					"patching_rect" : [ 1279.0, 596.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 651.0, 8.0, 66.0, 20.0 ],
-					"text" : "Source 4:"
+					"text" : "Source 4:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -157,16 +162,21 @@
 					"patching_rect" : [ 1279.0, 747.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 651.0, 71.0, 66.0, 20.0 ],
-					"text" : "Input Trim:"
+					"text" : "Input Trim:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-80",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1375.0, 781.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -189,6 +199,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-82",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
 					"numinlets" : 1,
@@ -301,7 +312,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-99",
-					"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "SPDIF 1", ",", 12, "SPDIF 2", ",", 13, "TOSLink 1", ",", 14, "TOSLink 2", ",", 15, "ADAT B 1", ",", 16, "ADAT B 2", ",", 17, "ADAT B 3", ",", 18, "ADAT B 4", ",", 19, "Out 5", ",", 20, "Out 6", ",", 21, "Out 7", ",", 22, "Out 8" ],
+					"items" : [ "Off", ",", 1, "Left Input", ",", 2, "Right Input" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -387,10 +398,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-52",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1098.0, 720.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -407,7 +422,8 @@
 					"patching_rect" : [ 969.0, 596.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 492.0, 8.0, 66.0, 20.0 ],
-					"text" : "Source 3:"
+					"text" : "Source 3:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -444,16 +460,21 @@
 					"patching_rect" : [ 969.0, 747.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 492.0, 71.0, 66.0, 20.0 ],
-					"text" : "Input Trim:"
+					"text" : "Input Trim:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-57",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1065.0, 781.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -476,6 +497,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-59",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
 					"numinlets" : 1,
@@ -588,7 +610,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
-					"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "SPDIF 1", ",", 12, "SPDIF 2", ",", 13, "TOSLink 1", ",", 14, "TOSLink 2", ",", 15, "ADAT B 1", ",", 16, "ADAT B 2", ",", 17, "ADAT B 3", ",", 18, "ADAT B 4", ",", 19, "Out 5", ",", 20, "Out 6", ",", 21, "Out 7", ",", 22, "Out 8" ],
+					"items" : [ "Off", ",", 1, "Left Input", ",", 2, "Right Input" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -674,10 +696,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-29",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 807.0, 720.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -694,7 +720,8 @@
 					"patching_rect" : [ 678.0, 596.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 332.0, 8.0, 66.0, 20.0 ],
-					"text" : "Source 2:"
+					"text" : "Source 2:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -731,16 +758,21 @@
 					"patching_rect" : [ 678.0, 747.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 332.0, 71.0, 66.0, 20.0 ],
-					"text" : "Input Trim:"
+					"text" : "Input Trim:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-34",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 774.0, 781.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -763,6 +795,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-36",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
 					"numinlets" : 1,
@@ -875,7 +908,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "SPDIF 1", ",", 12, "SPDIF 2", ",", 13, "TOSLink 1", ",", 14, "TOSLink 2", ",", 15, "ADAT B 1", ",", 16, "ADAT B 2", ",", 17, "ADAT B 3", ",", 18, "ADAT B 4", ",", 19, "Out 5", ",", 20, "Out 6", ",", 21, "Out 7", ",", 22, "Out 8" ],
+					"items" : [ "Off", ",", 1, "Left Input", ",", 2, "Right Input" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1159,16 +1192,21 @@
 					"patching_rect" : [ 31.0, 34.0, 105.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 105.0, 25.0 ],
-					"text" : "Audio Input"
+					"text" : "Audio Input",
+					"textcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-13",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 482.0, 720.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -1189,7 +1227,7 @@
 					"presentation_rect" : [ 13.0, 92.0, 145.0, 20.0 ],
 					"text" : "Open Audio Settings",
 					"texton" : "Open Audio Settings",
-					"textoncolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ]
+					"textoncolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -1226,7 +1264,8 @@
 					"patching_rect" : [ 353.0, 596.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 171.0, 8.0, 66.0, 20.0 ],
-					"text" : "Source 1:"
+					"text" : "Source 1:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -1275,16 +1314,21 @@
 					"patching_rect" : [ 353.0, 747.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 171.0, 71.0, 66.0, 20.0 ],
-					"text" : "Input Trim:"
+					"text" : "Input Trim:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-124",
 					"maxclass" : "meter~",
+					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.41 ],
+					"oncolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 449.0, 781.0, 153.0, 15.0 ],
 					"presentation" : 1,
@@ -1307,6 +1351,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-126",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
 					"numinlets" : 1,
@@ -1433,7 +1478,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-137",
-					"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "SPDIF 1", ",", 12, "SPDIF 2", ",", 13, "TOSLink 1", ",", 14, "TOSLink 2", ",", 15, "ADAT B 1", ",", 16, "ADAT B 2", ",", 17, "ADAT B 3", ",", 18, "ADAT B 4", ",", 19, "Out 5", ",", 20, "Out 6", ",", 21, "Out 7", ",", 22, "Out 8" ],
+					"items" : [ "Off", ",", 1, "Left Input", ",", 2, "Right Input" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1506,7 +1551,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgoncolor" : [ 0.172549019607843, 0.501960784313725, 0.047058823529412, 1.0 ],
+					"bgoncolor" : [ 0.517647058823529, 0.435294117647059, 0.603921568627451, 1.0 ],
 					"id" : "obj-463",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1518,8 +1563,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 116.0, 145.0, 20.0 ],
 					"text" : "Audio Processing Off",
-					"textcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"texton" : "Audio Processing On",
+					"textoncolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"usebgoncolor" : 1
 				}
 
@@ -1528,8 +1574,8 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.474509803921569, 0.705882352941177, 0.717647058823529, 1.0 ],
-					"grad2" : [ 0.552941176470588, 0.470588235294118, 0.647058823529412, 1.0 ],
+					"grad1" : [ 0.254901960784314, 0.215686274509804, 0.298039215686275, 1.0 ],
+					"grad2" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 					"id" : "obj-87",
 					"maxclass" : "panel",
 					"mode" : 1,

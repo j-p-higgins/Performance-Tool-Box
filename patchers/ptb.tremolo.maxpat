@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1475.0, 921.0 ],
+		"rect" : [ 134.0, 134.0, 1098.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 49.0, 422.0, 108.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "setprop height 145"
 				}
 
@@ -231,6 +230,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 39.0, 40.0, 20.0 ],
 					"text" : "Width",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -596,8 +596,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-79",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -763,6 +765,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 39.0, 42.0, 20.0 ],
 					"text" : "Depth",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -832,8 +835,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-40",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -890,6 +895,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 39.0, 43.0, 20.0 ],
 					"text" : "Speed",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -903,7 +909,8 @@
 					"patching_rect" : [ 1100.0, 88.0, 49.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 112.0, 49.0, 20.0 ],
-					"text" : "Shape"
+					"text" : "Shape",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -1122,7 +1129,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 828.700000000000045, 475.0, 48.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "square"
 				}
 
@@ -1164,9 +1170,11 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-292",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -1200,7 +1208,8 @@
 					"patching_rect" : [ 42.0, 32.0, 234.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 7.0, 92.0, 29.0 ],
-					"text" : "Tremolo"
+					"text" : "Tremolo",
+					"textcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ]
 				}
 
 			}
@@ -1208,8 +1217,8 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.474509803921569, 0.705882352941177, 0.717647058823529, 1.0 ],
-					"grad2" : [ 0.552941176470588, 0.470588235294118, 0.647058823529412, 1.0 ],
+					"grad1" : [ 0.254901960784314, 0.215686274509804, 0.298039215686275, 1.0 ],
+					"grad2" : [ 0.109803921568627, 0.109803921568627, 0.109803921568627, 1.0 ],
 					"id" : "obj-194",
 					"maxclass" : "panel",
 					"mode" : 1,

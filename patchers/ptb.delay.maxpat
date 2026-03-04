@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1475.0, 921.0 ],
+		"rect" : [ 134.0, 85.0, 1098.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -124,10 +124,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 49.0, 527.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"delay-feedback" : [ 0.0 ],
+						"delay-feedback" : [ 81.0 ],
 						"delay-filter" : [ 110.0 ],
 						"delay-mix" : [ 63 ],
-						"delay-time" : [ 101.600000000000023 ],
+						"delay-time" : [ 60.0 ],
 						"delay-variation" : [ 67.0 ]
 					}
 ,
@@ -268,7 +268,7 @@
 				"box" : 				{
 					"comment" : "Right Output",
 					"id" : "obj-180",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -280,7 +280,7 @@
 				"box" : 				{
 					"comment" : "Left Output",
 					"id" : "obj-179",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -358,6 +358,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 246.0, 41.0, 55.0, 20.0 ],
 					"text" : "Dry/Wet",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -470,11 +471,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-159",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1271.0, 86.0, 40.0, 40.0 ],
 					"presentation" : 1,
@@ -583,11 +587,11 @@
 				"box" : 				{
 					"comment" : "Right Input",
 					"id" : "obj-141",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 362.25, 392.0, 30.0, 30.0 ]
 				}
 
@@ -757,6 +761,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 41.0, 50.0, 20.0 ],
 					"text" : "L/R Diff",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -838,12 +843,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-118",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1082.0, 85.0, 40.0, 40.0 ],
 					"presentation" : 1,
@@ -862,6 +870,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 183.0, 41.0, 61.0, 20.0 ],
 					"text" : "Filter (Hz)",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -876,6 +885,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 123.0, 41.0, 61.0, 20.0 ],
 					"text" : "Feedback",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -890,6 +900,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 41.0, 57.0, 20.0 ],
 					"text" : "Time (s)",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1079,12 +1090,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-80",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 811.0, 85.0, 40.0, 40.0 ],
 					"presentation" : 1,
@@ -1246,7 +1260,7 @@
 					"patching_rect" : [ 588.0, 96.0, 40.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 74.0, 40.0, 18.0 ],
-					"text" : "0.00",
+					"text" : "0.70",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1266,12 +1280,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-50",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 588.0, 85.0, 40.0, 40.0 ],
 					"presentation" : 1,
@@ -1331,11 +1348,11 @@
 				"box" : 				{
 					"comment" : "Left Input",
 					"id" : "obj-35",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 269.25, 392.0, 30.0, 30.0 ]
 				}
 
@@ -1433,7 +1450,7 @@
 					"patching_rect" : [ 347.0, 96.0, 40.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 74.0, 40.0, 18.0 ],
-					"text" : "6.84",
+					"text" : "0.61",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1453,12 +1470,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-4",
 					"maxclass" : "dial",
+					"needlecolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 347.0, 85.0, 40.0, 40.0 ],
 					"presentation" : 1,
@@ -1501,7 +1521,8 @@
 					"patching_rect" : [ 54.0, 49.0, 234.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 7.0, 234.0, 29.0 ],
-					"text" : "Delay"
+					"text" : "Delay",
+					"textcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ]
 				}
 
 			}
@@ -1509,8 +1530,8 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.474509803921569, 0.705882352941177, 0.717647058823529, 1.0 ],
-					"grad2" : [ 0.552941176470588, 0.470588235294118, 0.647058823529412, 1.0 ],
+					"grad1" : [ 0.254901960784314, 0.215686274509804, 0.298039215686275, 1.0 ],
+					"grad2" : [ 0.109803921568627, 0.109803921568627, 0.109803921568627, 1.0 ],
 					"id" : "obj-194",
 					"maxclass" : "panel",
 					"mode" : 1,
@@ -2332,7 +2353,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "resize_generic.js",
+				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

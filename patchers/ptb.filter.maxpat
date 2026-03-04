@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1472.0, 921.0 ],
+		"rect" : [ 134.0, 134.0, 1095.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-114",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -56,6 +57,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-113",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -77,7 +79,8 @@
 					"patching_rect" : [ 836.0, 65.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 138.0, 178.0, 20.0 ],
-					"text" : "Filter Type:"
+					"text" : "Filter Type:",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -181,7 +184,7 @@
 				"box" : 				{
 					"comment" : "Right Output",
 					"id" : "obj-84",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -289,7 +292,7 @@
 				"box" : 				{
 					"comment" : "Right Input",
 					"id" : "obj-93",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -314,7 +317,7 @@
 				"box" : 				{
 					"comment" : "Left Output",
 					"id" : "obj-83",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -521,6 +524,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 156.0, 120.0, 20.0 ],
 					"text" : "BP",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -534,7 +538,8 @@
 					"patching_rect" : [ 758.0, 92.0, 28.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 156.0, 28.0, 20.0 ],
-					"text" : "LP"
+					"text" : "LP",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -548,6 +553,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 156.0, 28.0, 20.0 ],
 					"text" : "HP",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -738,6 +744,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -778,7 +785,7 @@
 				"box" : 				{
 					"comment" : "Left Input",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -844,6 +851,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 89.0, 70.0, 20.0 ],
 					"text" : "Resonance",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -895,6 +903,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 41.0, 40.0, 20.0 ],
 					"text" : "Cutoff",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -933,7 +942,8 @@
 					"patching_rect" : [ 39.0, 34.0, 234.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 6.0, 58.0, 29.0 ],
-					"text" : "Filter"
+					"text" : "Filter",
+					"textcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ]
 				}
 
 			}
@@ -941,8 +951,8 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.474509803921569, 0.705882352941177, 0.717647058823529, 1.0 ],
-					"grad2" : [ 0.552941176470588, 0.470588235294118, 0.647058823529412, 1.0 ],
+					"grad1" : [ 0.254901960784314, 0.215686274509804, 0.298039215686275, 1.0 ],
+					"grad2" : [ 0.109803921568627, 0.109803921568627, 0.109803921568627, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "panel",
 					"mode" : 1,
@@ -1425,7 +1435,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "resize_generic.js",
+				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

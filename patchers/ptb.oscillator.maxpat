@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
+		"rect" : [ 34.0, 77.0, 1475.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,8 @@
 					"patching_rect" : [ 395.5, 453.0, 41.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 149.0, 41.0, 20.0 ],
-					"text" : "Gain"
+					"text" : "Gain",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -102,6 +103,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-124",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
 					"numinlets" : 1,
@@ -124,7 +126,8 @@
 					"patching_rect" : [ 905.0, 147.0, 54.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 102.0, 54.0, 20.0 ],
-					"text" : "Square"
+					"text" : "Square",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -137,7 +140,8 @@
 					"patching_rect" : [ 851.0, 147.0, 54.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 102.0, 54.0, 20.0 ],
-					"text" : "Triangle"
+					"text" : "Triangle",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -151,6 +155,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 102.0, 40.0, 20.0 ],
 					"text" : "Saw",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -164,7 +169,8 @@
 					"patching_rect" : [ 816.0, 147.0, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 102.0, 40.0, 20.0 ],
-					"text" : "Sine"
+					"text" : "Sine",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -177,7 +183,8 @@
 					"patching_rect" : [ 819.0, 113.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 86.0, 150.0, 20.0 ],
-					"text" : "Wave Shape"
+					"text" : "Wave Shape",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -712,6 +719,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1102,6 +1110,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-14",
+					"knobcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1135,7 +1144,8 @@
 					"patching_rect" : [ 362.0, 53.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 37.0, 150.0, 20.0 ],
-					"text" : "Frequency"
+					"text" : "Frequency",
+					"textcolor" : [ 0.996078431372549, 0.984313725490196, 0.952941176470588, 1.0 ]
 				}
 
 			}
@@ -1251,7 +1261,7 @@
 				"box" : 				{
 					"comment" : "Right Output",
 					"id" : "obj-84",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1263,7 +1273,7 @@
 				"box" : 				{
 					"comment" : "Left Output",
 					"id" : "obj-83",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1281,7 +1291,8 @@
 					"patching_rect" : [ 39.0, 34.0, 234.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 6.0, 103.0, 29.0 ],
-					"text" : "Oscillator"
+					"text" : "Oscillator",
+					"textcolor" : [ 0.749019607843137, 0.631372549019608, 0.870588235294118, 1.0 ]
 				}
 
 			}
@@ -1289,8 +1300,8 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.474509803921569, 0.705882352941177, 0.717647058823529, 1.0 ],
-					"grad2" : [ 0.552941176470588, 0.470588235294118, 0.647058823529412, 1.0 ],
+					"grad1" : [ 0.254901960784314, 0.215686274509804, 0.298039215686275, 1.0 ],
+					"grad2" : [ 0.109803921568627, 0.109803921568627, 0.109803921568627, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "panel",
 					"mode" : 1,
@@ -1779,7 +1790,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "resize_generic.js",
+				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
