@@ -60,3 +60,12 @@ max definesubstitution ptb.gain bpatcher @name ptb.gain.maxpat;
 
 max objectfile ptb.looper ptb.looper;
 max definesubstitution ptb.looper bpatcher @name ptb.looper.maxpat;
+
+max objectfile ptb.noise ptb.noise;
+max definesubstitution ptb.noise bpatcher @name ptb.noise.maxpat;
+
+max objectfile ptb.oscillator ptb.oscillator;
+max definesubstitution ptb.oscillator bpatcher @name ptb.oscillator.maxpat;
+
+max objectfile ptb.midiin ptb.midiin;
+max definesubstitution ptb.midiin bpatcher @name ptb.midiin.maxpat;
