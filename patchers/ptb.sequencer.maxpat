@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 134.0, 1098.0, 921.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 684.0, 227.0, 77.0, 22.0 ],
+					"text" : "quantize $1n"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
@@ -289,7 +301,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 670.0, 227.0, 91.0, 22.0 ],
+					"patching_rect" : [ 694.0, 195.0, 91.0, 22.0 ],
 					"text" : "s #0-clockdiv"
 				}
 
@@ -485,8 +497,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 584.0, 258.0, 190.0, 22.0 ],
-					"text" : "metro 16n @active 1 @quantize 1"
+					"patching_rect" : [ 584.0, 258.0, 119.0, 22.0 ],
+					"text" : "metro 16n @active 1"
 				}
 
 			}
@@ -783,7 +795,7 @@
 				"box" : 				{
 					"comment" : "Left Output",
 					"id" : "obj-83",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1048,7 +1060,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -1057,6 +1069,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"order" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -1157,6 +1177,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
 					"midpoints" : [ 929.0, 243.0, 894.0, 243.0 ],
 					"source" : [ "obj-92", 1 ]
@@ -1206,30 +1233,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-8" : [ "live.step[1]", "live.step", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "resize_generic.js",
-				"bootpath" : "D:/Documents/Max 8/Packages/Performance-Tool-Box/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
